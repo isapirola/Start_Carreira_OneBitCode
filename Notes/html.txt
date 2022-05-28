@@ -1,0 +1,55 @@
+HTML é uma linguagem de marcação, não de programação
+
+Anatomia de um documento html:
+
+<!DOCTYPE html> - informa ao browser que o documento é um arquivo html
+<html lang="pt-br"> - envolve todas as outras tags do documento (lang - linguagem utilizada no documento)
+<head> - envolve as tags que não vão aparecer ao usuário
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body> - envolve as tags que serão mostradas    
+</body>
+</html>
+
+Tags:
+
+<h1></h1> - título principal da página
+variações do h1 - h2, h3, h4, h5, h6
+essas variações vão ficando cada vez menores de acordo com o número
+<p></p> - parágrafo, texto comum
+<div></div> - serve para envolver outros elementos do código para aplicar estilo através do CSS
+<span></span> - semelhante a div, envolve elementos mas não apresenta mudança visual sem o CSS, estilos localizados
+<ul> - lista não ordenada
+<ol></ol> - lista ordenada
+<li></li> - elemento da ul ou ol
+
+*tags podem possuir atributos extras
+
+<a href=""></a> - link entre duas páginas
+<img src=""> - inserir imagem na página
+
+
+Meta Tag - tags que ficam dentro do head:
+
+<meta charset="UTF-8"> - padrão de encode, codificação para representar os caracteres
+<meta name="description" content="Programação Web"> - informa a descrição do conteúdo da página
+<meta name="author" content="Isabela"> - informa quem é o autor da página
+mais informações sobre meta tags: https://www.w3schools.com/tags/tag_meta.asp
+
+Formulários:
+
+<form></form>
+a tag form permite submeter informações para um servidor
+<form action=""></form> - URL do servidor para submeter as informações
+<form method=""></form> - método get para pegar informações ou método post para gravar informações no servidor
+
+<input> - local aonde é inserido uma informação
+<input type=""> - tipo de dados (números, texto, data e etc)
+<input type="submit"> - botão de submissão do form
+<input name> - nomeação dos inputs para o servidor saber onde estão
+<input required> - só pode ser submetido se for preenchido, senão retorna erro
+
+<label></label> - identificar o campo do form
+<label for=""></label> - aponta para o id do input
+
