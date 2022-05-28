@@ -1,0 +1,2 @@
+CSS é utilizado para estilizar as telas HTML
+
