@@ -1,0 +1,19 @@
+JavaScript é uma linguagem de programação
+
+Foi desenvolvido para dar instruções para o browser.
+Hoje em dia  é usado na criação de APPs mobile e diretamente em servidores
+
+document - é um objeto javascript que permite interegir com qualquer elemento da página
+
+Como inserir o JavaScript:
+1 - tag script no HTML
+2 - arquivo separado (style.js)
+
+Variáveis no JS:
+var - maneira antiga
+let - nova maneira
+const - nova maneira, constante
+
+Tipos de dados no JS:
+Strings, arrays, números, boolean, objetos
+*Os tipos são dinâmicos, pode-se usar a mesma variável para receber tipos diferentes
