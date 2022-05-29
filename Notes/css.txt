@@ -1,2 +1,65 @@
 CSS é utilizado para estilizar as telas HTML
 
+Sintaxe do CSS:
+
+h1{
+    color: blue;
+    font-size: 12px;
+}
+
+h1 = seletor
+color: blue; = declaração
+color = propriedade
+blue = valor
+font-size: 12px; = declaração
+font-size = propriedade
+12px = valor
+
+Estilos CSS:
+
+color
+background-color
+font-size
+font-weight
+margin
+padding
+border
+
+CSS Box Model: margin -> border -> padding -> content
+
+Padding é a distancia do elemento para a borda
+Margin é a distancia do elemento para o outro elemento
+
+Maneiras de adicionar CSS ao seu projeto
+
+1 - Inline
+<h1 style="color: blue;">A Blue Headling</h1>
+
+2 - Separado no arquivo html
+<style>
+    body{
+        background-color: blue;
+    }
+    h1{
+        color:red;
+    }
+</style>
+
+3 - Em outro arquivo (style.css)
+
+Seleção baseada no estado (pseudo-classes) - definir um estado especial de um elemento
+
+a:visited{
+    color: #00FF00;
+}
+a:hover{
+    color: #FF00FF;
+}
+a:active{
+    color: #0000FF;
+}
+
+Variáveis no CSS:
+
+--cor-principal: black;
+color: var(--cor-principal);
